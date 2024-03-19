@@ -5,6 +5,7 @@ Alerters for SimpleMonitor
 from .bulksms import BulkSMSAlerter
 from .execute import ExecuteAlerter
 from .fortysixelks import FortySixElksAlerter
+from .gotify import GotifyAlerter
 from .mail import EMailAlerter
 from .nc import NotificationCenterAlerter
 from .nextcloud_notification import NextcloudNotificationAlerter
@@ -34,4 +35,5 @@ __all__ = [
     "SyslogAlerter",
     "TelegramAlerter",
     "TwilioSMSAlerter",
+    "GotifyAlerter",
 ]
